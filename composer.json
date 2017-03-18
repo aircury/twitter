@@ -1,0 +1,21 @@
+{
+    "name": "aircury/twitter",
+    "description": "PHP 7 Twitter library that provides an Object Oriented approach to the Twitter API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name":  "Jose Diaz",
+            "email": "jose@aircury.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Aircury\\Twitter\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "endroid/twitter": "^1.3"
+    }
+}
