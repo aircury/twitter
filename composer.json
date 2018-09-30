@@ -17,5 +17,13 @@
     "require": {
         "php": "^7.1",
         "endroid/twitter": "^1.3"
+    },
+    "config": {
+        "preferred-install": {
+            "*": "source"
+        },
+        "sort-packages": true,
+        "bin-dir": "bin",
+        "discard-changes": true
     }
 }
